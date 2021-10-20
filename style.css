@@ -1,0 +1,70 @@
+/* CSS files add styling rules to your content */
+
+/* commenting this flexbox stuff out rn because i just cannot 
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+*/
+
+body {
+  background-color: #FFFFFF;
+  font-family: monospace;
+  margin: 2em;
+}
+
+h1 {
+  font-style: italic;
+  padding: 0px 15px 0px 25px;
+  font-size: 2.5em;
+}
+
+h1 + p {
+  font-style: italic;
+  font-weight: bold;
+  padding: 0px 15px 30px 25px;
+  font-size: 1.25em;
+}
+
+h2 {
+  font-weight: bold;
+  padding: 20px 15px 0px 0px;
+  font-size: 1.15em;
+}
+
+dt {
+  font-style: italic;
+  padding: 10px 0px 0px 0px;
+}
+
+dl + p {
+  padding: 15px 0px 0px 0px;
+  font-size: 1.05em;
+}
+
+a:link, a:visited {
+  color: blue;
+}
+
+a:hover, a:active {
+  color: #FFFFFF;
+  background-color: blue;
+}
+
+footer {
+  background-color: #FFFFFF;
+  font-family: monospace;
+  margin: 4em;
+  font-size: 0.9em;
+}
